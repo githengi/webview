@@ -1,0 +1,6550 @@
+{
+	"resourceType": "Bundle",
+	"type": "transaction",
+	"entry": [
+		{
+			"fullUrl": "urn:uuid:cbcb894e-ca78-458e-8701-c61328d65408",
+			"resource": {
+				"resourceType": "MessageHeader",
+				"id": "cbcb894e-ca78-458e-8701-c61328d65408",
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Message Header</div>"
+				},
+				"destination": [
+					{
+						"name": "Ona",
+						"endpoint": "https://tbd.ona.opensrp"
+					}
+				],
+				"source": {
+					"name": "ThinkMD",
+					"software": "ThinkMD",
+					"version": "V4.01",
+					"endpoint": "https://fhir.thinkmd.tech"
+				},
+				"eventCoding": {
+					"system": "http://hl7.org/fhir/restful-interaction",
+					"code": "batch"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "MessageHeader/cbcb894e-ca78-458e-8701-c61328d65408"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Condition/respiratorydistress-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Condition",
+				"id": "respiratorydistress-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"status": "generated",
+					"div": "<div class=\"fhirCondition\"><span>Condition</span> - <span>Possible Pneumonia&#x2F;Respiratory distress</span> : <span>severe</span></div>"
+				},
+				"severity": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "24484000",
+							"display": "severe"
+						}
+					]
+				},
+				"clinicalStatus": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+							"code": "active"
+						}
+					]
+				},
+				"verificationStatus": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+							"code": "unconfirmed"
+						}
+					]
+				},
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "50043002",
+							"display": "respiratory_distress"
+						}
+					]
+				},
+				"onsetDateTime": "2020-12-15T00:46:03.096Z",
+				"recordedDate": "2020-12-15T00:46:03.096Z",
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Condition/respiratorydistress-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Condition/dehydration-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Condition",
+				"id": "dehydration-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"status": "generated",
+					"div": "<div class=\"fhirCondition\"><span>Condition</span> - <span>Dehydration</span> : <span>severe</span></div>"
+				},
+				"severity": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "24484000",
+							"display": "severe"
+						}
+					]
+				},
+				"clinicalStatus": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+							"code": "active"
+						}
+					]
+				},
+				"verificationStatus": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+							"code": "unconfirmed"
+						}
+					]
+				},
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "34095006",
+							"display": "dehydration"
+						}
+					]
+				},
+				"onsetDateTime": "2020-12-15T00:46:03.097Z",
+				"recordedDate": "2020-12-15T00:46:03.097Z",
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Condition/dehydration-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Condition/malnutrition-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Condition",
+				"id": "malnutrition-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"status": "generated",
+					"div": "<div class=\"fhirCondition\"><span>Condition</span> - <span>Acute Malnutrition</span> : <span>severe</span></div>"
+				},
+				"severity": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "24484000",
+							"display": "severe"
+						}
+					]
+				},
+				"clinicalStatus": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+							"code": "active"
+						}
+					]
+				},
+				"verificationStatus": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+							"code": "unconfirmed"
+						}
+					]
+				},
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "2492009",
+							"display": "malnutrition"
+						}
+					]
+				},
+				"onsetDateTime": "2020-12-15T00:46:03.097Z",
+				"recordedDate": "2020-12-15T00:46:03.097Z",
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Condition/malnutrition-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Condition/measles-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Condition",
+				"id": "measles-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"status": "generated",
+					"div": "<div class=\"fhirCondition\"><span>Condition</span> - <span>Measles</span> : <span>moderate</span></div>"
+				},
+				"severity": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "6736007",
+							"display": "moderate"
+						}
+					]
+				},
+				"clinicalStatus": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+							"code": "active"
+						}
+					]
+				},
+				"verificationStatus": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+							"code": "unconfirmed"
+						}
+					]
+				},
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "14189004",
+							"display": "measles"
+						}
+					]
+				},
+				"onsetDateTime": "2020-12-15T00:46:03.097Z",
+				"recordedDate": "2020-12-15T00:46:03.097Z",
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Condition/measles-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Condition/malaria-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Condition",
+				"id": "malaria-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"status": "generated",
+					"div": "<div class=\"fhirCondition\"><span>Condition</span> - <span>Malaria</span> : <span>severe</span></div>"
+				},
+				"severity": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "24484000",
+							"display": "severe"
+						}
+					]
+				},
+				"clinicalStatus": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+							"code": "active"
+						}
+					]
+				},
+				"verificationStatus": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+							"code": "unconfirmed"
+						}
+					]
+				},
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "61462000",
+							"display": "malaria"
+						}
+					]
+				},
+				"onsetDateTime": "2020-12-15T00:46:03.098Z",
+				"recordedDate": "2020-12-15T00:46:03.098Z",
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Condition/malaria-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Condition/skininfection-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Condition",
+				"id": "skininfection-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"status": "generated",
+					"div": "<div class=\"fhirCondition\"><span>Condition</span> - <span>Skin Infection</span> : <span>moderate</span></div>"
+				},
+				"severity": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "6736007",
+							"display": "moderate"
+						}
+					]
+				},
+				"clinicalStatus": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+							"code": "active"
+						}
+					]
+				},
+				"verificationStatus": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+							"code": "unconfirmed"
+						}
+					]
+				},
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "19824006",
+							"display": "skin_infection"
+						}
+					]
+				},
+				"onsetDateTime": "2020-12-15T00:46:03.098Z",
+				"recordedDate": "2020-12-15T00:46:03.098Z",
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Condition/skininfection-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Condition/dysentery-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Condition",
+				"id": "dysentery-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"status": "generated",
+					"div": "<div class=\"fhirCondition\"><span>Condition</span> - <span>Dysentery (loose stools with blood and mucus)</span> : <span>moderate</span></div>"
+				},
+				"severity": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "6736007",
+							"display": "moderate"
+						}
+					]
+				},
+				"clinicalStatus": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+							"code": "active"
+						}
+					]
+				},
+				"verificationStatus": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+							"code": "unconfirmed"
+						}
+					]
+				},
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "46799006",
+							"display": "dysentery"
+						}
+					]
+				},
+				"onsetDateTime": "2020-12-15T00:46:03.098Z",
+				"recordedDate": "2020-12-15T00:46:03.098Z",
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Condition/dysentery-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Condition/meningitis-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Condition",
+				"id": "meningitis-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"status": "generated",
+					"div": "<div class=\"fhirCondition\"><span>Condition</span> - <span>Meningitis</span> : <span>severe</span></div>"
+				},
+				"severity": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "24484000",
+							"display": "severe"
+						}
+					]
+				},
+				"clinicalStatus": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+							"code": "active"
+						}
+					]
+				},
+				"verificationStatus": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+							"code": "unconfirmed"
+						}
+					]
+				},
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "7180009",
+							"display": "meningitis"
+						}
+					]
+				},
+				"onsetDateTime": "2020-12-15T00:46:03.098Z",
+				"recordedDate": "2020-12-15T00:46:03.098Z",
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Condition/meningitis-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Condition/uti-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Condition",
+				"id": "uti-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"status": "generated",
+					"div": "<div class=\"fhirCondition\"><span>Condition</span> - <span>Urinary Tract Infection</span> : <span>moderate</span></div>"
+				},
+				"severity": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "6736007",
+							"display": "moderate"
+						}
+					]
+				},
+				"clinicalStatus": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+							"code": "active"
+						}
+					]
+				},
+				"verificationStatus": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+							"code": "unconfirmed"
+						}
+					]
+				},
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "68566005",
+							"display": "uti"
+						}
+					]
+				},
+				"onsetDateTime": "2020-12-15T00:46:03.098Z",
+				"recordedDate": "2020-12-15T00:46:03.098Z",
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Condition/uti-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Condition/earinfection-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Condition",
+				"id": "earinfection-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"status": "generated",
+					"div": "<div class=\"fhirCondition\"><span>Condition</span> - <span>Ear Infection</span> : <span>moderate</span></div>"
+				},
+				"severity": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "6736007",
+							"display": "moderate"
+						}
+					]
+				},
+				"clinicalStatus": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+							"code": "active"
+						}
+					]
+				},
+				"verificationStatus": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+							"code": "unconfirmed"
+						}
+					]
+				},
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "129127001",
+							"display": "ear_infection"
+						}
+					]
+				},
+				"onsetDateTime": "2020-12-15T00:46:03.098Z",
+				"recordedDate": "2020-12-15T00:46:03.098Z",
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Condition/earinfection-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Condition/anemia-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Condition",
+				"id": "anemia-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"status": "generated",
+					"div": "<div class=\"fhirCondition\"><span>Condition</span> - <span>Anemia (or low iron)</span> : <span>moderate</span></div>"
+				},
+				"severity": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "6736007",
+							"display": "moderate"
+						}
+					]
+				},
+				"clinicalStatus": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+							"code": "active"
+						}
+					]
+				},
+				"verificationStatus": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+							"code": "unconfirmed"
+						}
+					]
+				},
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "271737000",
+							"display": "anemia"
+						}
+					]
+				},
+				"onsetDateTime": "2020-12-15T00:46:03.098Z",
+				"recordedDate": "2020-12-15T00:46:03.098Z",
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Condition/anemia-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Condition/boil-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Condition",
+				"id": "boil-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"status": "generated",
+					"div": "<div class=\"fhirCondition\"><span>Condition</span> - <span>Boil</span> : <span>mild</span></div>"
+				},
+				"severity": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "255604002",
+							"display": "mild"
+						}
+					]
+				},
+				"clinicalStatus": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+							"code": "active"
+						}
+					]
+				},
+				"verificationStatus": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+							"code": "unconfirmed"
+						}
+					]
+				},
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "none",
+							"display": "boil"
+						}
+					]
+				},
+				"onsetDateTime": "2020-12-15T00:46:03.098Z",
+				"recordedDate": "2020-12-15T00:46:03.098Z",
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Condition/boil-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Condition/impetigo-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Condition",
+				"id": "impetigo-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"status": "generated",
+					"div": "<div class=\"fhirCondition\"><span>Condition</span> - <span>Impetigo</span> : <span>mild</span></div>"
+				},
+				"severity": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "255604002",
+							"display": "mild"
+						}
+					]
+				},
+				"clinicalStatus": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+							"code": "active"
+						}
+					]
+				},
+				"verificationStatus": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+							"code": "unconfirmed"
+						}
+					]
+				},
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "none",
+							"display": "impetigo"
+						}
+					]
+				},
+				"onsetDateTime": "2020-12-15T00:46:03.098Z",
+				"recordedDate": "2020-12-15T00:46:03.098Z",
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Condition/impetigo-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Condition/febrileillness-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Condition",
+				"id": "febrileillness-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"status": "generated",
+					"div": "<div class=\"fhirCondition\"><span>Condition</span> - <span>Infection</span> : <span>severe</span></div>"
+				},
+				"severity": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "24484000",
+							"display": "severe"
+						}
+					]
+				},
+				"clinicalStatus": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+							"code": "active"
+						}
+					]
+				},
+				"verificationStatus": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+							"code": "unconfirmed"
+						}
+					]
+				},
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "none",
+							"display": "febrile_illness"
+						}
+					]
+				},
+				"onsetDateTime": "2020-12-15T00:46:03.098Z",
+				"recordedDate": "2020-12-15T00:46:03.098Z",
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Condition/febrileillness-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Condition/seizure-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Condition",
+				"id": "seizure-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"status": "generated",
+					"div": "<div class=\"fhirCondition\"><span>Condition</span> - <span>Seizure (or Fit)</span> : <span>severe</span></div>"
+				},
+				"severity": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "24484000",
+							"display": "severe"
+						}
+					]
+				},
+				"clinicalStatus": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+							"code": "active"
+						}
+					]
+				},
+				"verificationStatus": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+							"code": "unconfirmed"
+						}
+					]
+				},
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "none",
+							"display": "seizure"
+						}
+					]
+				},
+				"onsetDateTime": "2020-12-15T00:46:03.098Z",
+				"recordedDate": "2020-12-15T00:46:03.098Z",
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Condition/seizure-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Condition/asthma-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Condition",
+				"id": "asthma-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"status": "generated",
+					"div": "<div class=\"fhirCondition\"><span>Condition</span> - <span>Asthma</span> : <span>none</span></div>"
+				},
+				"severity": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "none",
+							"display": "none"
+						}
+					]
+				},
+				"clinicalStatus": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+							"code": "active"
+						}
+					]
+				},
+				"verificationStatus": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+							"code": "unconfirmed"
+						}
+					]
+				},
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "none",
+							"display": "asthma"
+						}
+					]
+				},
+				"onsetDateTime": "2020-12-15T00:46:03.099Z",
+				"recordedDate": "2020-12-15T00:46:03.099Z",
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Condition/asthma-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Condition/ringworm-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Condition",
+				"id": "ringworm-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"status": "generated",
+					"div": "<div class=\"fhirCondition\"><span>Condition</span> - <span>Ringworm</span> : <span>mild</span></div>"
+				},
+				"severity": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "255604002",
+							"display": "mild"
+						}
+					]
+				},
+				"clinicalStatus": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+							"code": "active"
+						}
+					]
+				},
+				"verificationStatus": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+							"code": "unconfirmed"
+						}
+					]
+				},
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "none",
+							"display": "ringworm"
+						}
+					]
+				},
+				"onsetDateTime": "2020-12-15T00:46:03.105Z",
+				"recordedDate": "2020-12-15T00:46:03.105Z",
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Condition/ringworm-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Condition/mumps-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Condition",
+				"id": "mumps-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"status": "generated",
+					"div": "<div class=\"fhirCondition\"><span>Condition</span> - <span>Mumps</span> : <span>moderate</span></div>"
+				},
+				"severity": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "6736007",
+							"display": "moderate"
+						}
+					]
+				},
+				"clinicalStatus": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+							"code": "active"
+						}
+					]
+				},
+				"verificationStatus": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+							"code": "unconfirmed"
+						}
+					]
+				},
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "none",
+							"display": "mumps"
+						}
+					]
+				},
+				"onsetDateTime": "2020-12-15T00:46:03.105Z",
+				"recordedDate": "2020-12-15T00:46:03.105Z",
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Condition/mumps-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Condition/strepthroat-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Condition",
+				"id": "strepthroat-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"status": "generated",
+					"div": "<div class=\"fhirCondition\"><span>Condition</span> - <span>Strep throat (or throat infection)</span> : <span>moderate</span></div>"
+				},
+				"severity": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "6736007",
+							"display": "moderate"
+						}
+					]
+				},
+				"clinicalStatus": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+							"code": "active"
+						}
+					]
+				},
+				"verificationStatus": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+							"code": "unconfirmed"
+						}
+					]
+				},
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "none",
+							"display": "strep_throat"
+						}
+					]
+				},
+				"onsetDateTime": "2020-12-15T00:46:03.105Z",
+				"recordedDate": "2020-12-15T00:46:03.105Z",
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Condition/strepthroat-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Condition/sinusinfection-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Condition",
+				"id": "sinusinfection-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"status": "generated",
+					"div": "<div class=\"fhirCondition\"><span>Condition</span> - <span>Sinus Infection</span> : <span>none</span></div>"
+				},
+				"severity": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "none",
+							"display": "none"
+						}
+					]
+				},
+				"clinicalStatus": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+							"code": "active"
+						}
+					]
+				},
+				"verificationStatus": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+							"code": "unconfirmed"
+						}
+					]
+				},
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "none",
+							"display": "sinus_infection"
+						}
+					]
+				},
+				"onsetDateTime": "2020-12-15T00:46:03.105Z",
+				"recordedDate": "2020-12-15T00:46:03.105Z",
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Condition/sinusinfection-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Condition/pyloricstenosis-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Condition",
+				"id": "pyloricstenosis-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"status": "generated",
+					"div": "<div class=\"fhirCondition\"><span>Condition</span> - <span>Pyloric Stenosis or stomach blockage</span> : <span>moderate</span></div>"
+				},
+				"severity": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "6736007",
+							"display": "moderate"
+						}
+					]
+				},
+				"clinicalStatus": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+							"code": "active"
+						}
+					]
+				},
+				"verificationStatus": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+							"code": "unconfirmed"
+						}
+					]
+				},
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "none",
+							"display": "pyloric_stenosis"
+						}
+					]
+				},
+				"onsetDateTime": "2020-12-15T00:46:03.105Z",
+				"recordedDate": "2020-12-15T00:46:03.105Z",
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Condition/pyloricstenosis-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Condition/cholera-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Condition",
+				"id": "cholera-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"status": "generated",
+					"div": "<div class=\"fhirCondition\"><span>Condition</span> - <span>Cholera</span> : <span>moderate</span></div>"
+				},
+				"severity": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "6736007",
+							"display": "moderate"
+						}
+					]
+				},
+				"clinicalStatus": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+							"code": "active"
+						}
+					]
+				},
+				"verificationStatus": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+							"code": "unconfirmed"
+						}
+					]
+				},
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "none",
+							"display": "cholera"
+						}
+					]
+				},
+				"onsetDateTime": "2020-12-15T00:46:03.105Z",
+				"recordedDate": "2020-12-15T00:46:03.105Z",
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Condition/cholera-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Condition/diarrhea-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Condition",
+				"id": "diarrhea-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"status": "generated",
+					"div": "<div class=\"fhirCondition\"><span>Condition</span> - <span>Diarrhea (or loose stools)</span> : <span>mild</span></div>"
+				},
+				"severity": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "255604002",
+							"display": "mild"
+						}
+					]
+				},
+				"clinicalStatus": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+							"code": "active"
+						}
+					]
+				},
+				"verificationStatus": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+							"code": "unconfirmed"
+						}
+					]
+				},
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "none",
+							"display": "diarrhea"
+						}
+					]
+				},
+				"onsetDateTime": "2020-12-15T00:46:03.106Z",
+				"recordedDate": "2020-12-15T00:46:03.106Z",
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Condition/diarrhea-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Condition/chickenpox-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Condition",
+				"id": "chickenpox-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"status": "generated",
+					"div": "<div class=\"fhirCondition\"><span>Condition</span> - <span>Chicken Pox</span> : <span>moderate</span></div>"
+				},
+				"severity": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "6736007",
+							"display": "moderate"
+						}
+					]
+				},
+				"clinicalStatus": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+							"code": "active"
+						}
+					]
+				},
+				"verificationStatus": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+							"code": "unconfirmed"
+						}
+					]
+				},
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "none",
+							"display": "chicken_pox"
+						}
+					]
+				},
+				"onsetDateTime": "2020-12-15T00:46:03.106Z",
+				"recordedDate": "2020-12-15T00:46:03.106Z",
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Condition/chickenpox-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Condition/intestinalobstruction-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Condition",
+				"id": "intestinalobstruction-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"status": "generated",
+					"div": "<div class=\"fhirCondition\"><span>Condition</span> - <span>Intestinal Obstruction or blockage</span> : <span>moderate</span></div>"
+				},
+				"severity": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "6736007",
+							"display": "moderate"
+						}
+					]
+				},
+				"clinicalStatus": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+							"code": "active"
+						}
+					]
+				},
+				"verificationStatus": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+							"code": "unconfirmed"
+						}
+					]
+				},
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "none",
+							"display": "intestinal_obstruction"
+						}
+					]
+				},
+				"onsetDateTime": "2020-12-15T00:46:03.106Z",
+				"recordedDate": "2020-12-15T00:46:03.106Z",
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Condition/intestinalobstruction-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Condition/mentalstatus-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Condition",
+				"id": "mentalstatus-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"status": "generated",
+					"div": "<div class=\"fhirCondition\"><span>Condition</span> - <span>Mental Status</span> : <span>none</span></div>"
+				},
+				"severity": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "none",
+							"display": "none"
+						}
+					]
+				},
+				"clinicalStatus": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+							"code": "active"
+						}
+					]
+				},
+				"verificationStatus": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+							"code": "unconfirmed"
+						}
+					]
+				},
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "none",
+							"display": "mental_status"
+						}
+					]
+				},
+				"onsetDateTime": "2020-12-15T00:46:03.106Z",
+				"recordedDate": "2020-12-15T00:46:03.106Z",
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Condition/mentalstatus-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Condition/eyeinfection-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Condition",
+				"id": "eyeinfection-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"status": "generated",
+					"div": "<div class=\"fhirCondition\"><span>Condition</span> - <span>Eye Infection</span> : <span>moderate</span></div>"
+				},
+				"severity": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "6736007",
+							"display": "moderate"
+						}
+					]
+				},
+				"clinicalStatus": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+							"code": "active"
+						}
+					]
+				},
+				"verificationStatus": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+							"code": "unconfirmed"
+						}
+					]
+				},
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "none",
+							"display": "eye_infection"
+						}
+					]
+				},
+				"onsetDateTime": "2020-12-15T00:46:03.106Z",
+				"recordedDate": "2020-12-15T00:46:03.106Z",
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Condition/eyeinfection-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Condition/feedingproblems-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Condition",
+				"id": "feedingproblems-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"status": "generated",
+					"div": "<div class=\"fhirCondition\"><span>Condition</span> - <span>Feeding Problems</span> : <span>none</span></div>"
+				},
+				"severity": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "none",
+							"display": "none"
+						}
+					]
+				},
+				"clinicalStatus": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+							"code": "active"
+						}
+					]
+				},
+				"verificationStatus": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+							"code": "unconfirmed"
+						}
+					]
+				},
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "none",
+							"display": "feeding_problems"
+						}
+					]
+				},
+				"onsetDateTime": "2020-12-15T00:46:03.106Z",
+				"recordedDate": "2020-12-15T00:46:03.106Z",
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Condition/feedingproblems-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Observation/gender-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "gender-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"div": "<div class=\"fhirObservation\"><span>Observation</span> - <span>gender</span> : <span>male</span></div>",
+					"status": "additional"
+				},
+				"effectiveDateTime": "2020-12-15T00:46:43.680Z",
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "429019009",
+							"display": "Sex"
+						}
+					]
+				},
+				"status": "preliminary",
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "248153007",
+							"display": "male"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/123"
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Observation/gender-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Observation/traveltomalariazone-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "traveltomalariazone-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"div": "<div class=\"fhirObservation\"><span>Observation</span> - <span>travel_to_malaria_zone</span> : <span>yes</span></div>",
+					"status": "additional"
+				},
+				"effectiveDateTime": "2020-12-15T00:46:43.680Z",
+				"code": {
+					"coding": [
+						{
+							"system": "http://hl7.org/fhir/sid/icd-10-cm",
+							"code": "Z779",
+							"display": "travel to malaria zone"
+						}
+					]
+				},
+				"status": "preliminary",
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "https://fhir.loinc.org/ValueSet/LL3044-6",
+							"code": "Y",
+							"display": "yes"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/123"
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Observation/traveltomalariazone-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Observation/aching-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "aching-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"div": "<div class=\"fhirObservation\"><span>Observation</span> - <span>aching</span> : <span>no</span></div>",
+					"status": "additional"
+				},
+				"effectiveDateTime": "2020-12-15T00:46:43.680Z",
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "27635008",
+							"display": "Aching"
+						}
+					]
+				},
+				"status": "preliminary",
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "https://fhir.loinc.org/ValueSet/LL3044-6",
+							"code": "N",
+							"display": "no"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/123"
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Observation/aching-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Observation/headache-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "headache-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"div": "<div class=\"fhirObservation\"><span>Observation</span> - <span>headache</span> : <span>no</span></div>",
+					"status": "additional"
+				},
+				"effectiveDateTime": "2020-12-15T00:46:43.680Z",
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "25064002",
+							"display": "Headache"
+						}
+					]
+				},
+				"status": "preliminary",
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "https://fhir.loinc.org/ValueSet/LL3044-6",
+							"code": "N",
+							"display": "no"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/123"
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Observation/headache-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Observation/painwhenurinating-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "painwhenurinating-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"div": "<div class=\"fhirObservation\"><span>Observation</span> - <span>pain_when_urinating</span> : <span>yes</span></div>",
+					"status": "additional"
+				},
+				"effectiveDateTime": "2020-12-15T00:46:43.680Z",
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "49650001",
+							"display": "Dysuria"
+						}
+					]
+				},
+				"status": "preliminary",
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "https://fhir.loinc.org/ValueSet/LL3044-6",
+							"code": "Y",
+							"display": "yes"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/123"
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Observation/painwhenurinating-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Observation/sick-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "sick-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"div": "<div class=\"fhirObservation\"><span>Observation</span> - <span>sick</span> : <span>yes</span></div>",
+					"status": "additional"
+				},
+				"effectiveDateTime": "2020-12-15T00:46:43.680Z",
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "275142008",
+							"display": "Sick child"
+						}
+					]
+				},
+				"status": "preliminary",
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "https://fhir.loinc.org/ValueSet/LL3044-6",
+							"code": "Y",
+							"display": "yes"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/123"
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Observation/sick-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Observation/seizure-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "seizure-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"div": "<div class=\"fhirObservation\"><span>Observation</span> - <span>seizure</span> : <span>yes</span></div>",
+					"status": "additional"
+				},
+				"effectiveDateTime": "2020-12-15T00:46:43.680Z",
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "91175000",
+							"display": "Seizure"
+						}
+					]
+				},
+				"status": "preliminary",
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "https://fhir.loinc.org/ValueSet/LL3044-6",
+							"code": "Y",
+							"display": "yes"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/123"
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Observation/seizure-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Observation/bloodystools-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "bloodystools-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"div": "<div class=\"fhirObservation\"><span>Observation</span> - <span>bloody_stools</span> : <span>yes</span></div>",
+					"status": "additional"
+				},
+				"effectiveDateTime": "2020-12-15T00:46:43.680Z",
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "300392005",
+							"display": "Stool flecked with blood"
+						}
+					]
+				},
+				"status": "preliminary",
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "https://fhir.loinc.org/ValueSet/LL3044-6",
+							"code": "Y",
+							"display": "yes"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/123"
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Observation/bloodystools-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Observation/earpain-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "earpain-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"div": "<div class=\"fhirObservation\"><span>Observation</span> - <span>ear_pain</span> : <span>yes</span></div>",
+					"status": "additional"
+				},
+				"effectiveDateTime": "2020-12-15T00:46:43.680Z",
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "301354004",
+							"display": "Pain of ear structure"
+						}
+					]
+				},
+				"status": "preliminary",
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "https://fhir.loinc.org/ValueSet/LL3044-6",
+							"code": "Y",
+							"display": "yes"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/123"
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Observation/earpain-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Observation/fever-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "fever-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"div": "<div class=\"fhirObservation\"><span>Observation</span> - <span>fever</span> : <span>yes</span></div>",
+					"status": "additional"
+				},
+				"effectiveDateTime": "2020-12-15T00:46:43.680Z",
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "386661006",
+							"display": "Fever"
+						}
+					]
+				},
+				"status": "preliminary",
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "https://fhir.loinc.org/ValueSet/LL3044-6",
+							"code": "Y",
+							"display": "yes"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/123"
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Observation/fever-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Observation/foulsmellingurine-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "foulsmellingurine-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"div": "<div class=\"fhirObservation\"><span>Observation</span> - <span>foul_smelling_urine</span> : <span>yes</span></div>",
+					"status": "additional"
+				},
+				"effectiveDateTime": "2020-12-15T00:46:43.680Z",
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "690701000119101",
+							"display": "Foul smelling urine"
+						}
+					]
+				},
+				"status": "preliminary",
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "https://fhir.loinc.org/ValueSet/LL3044-6",
+							"code": "Y",
+							"display": "yes"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/123"
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Observation/foulsmellingurine-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Observation/coldchills-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "coldchills-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"div": "<div class=\"fhirObservation\"><span>Observation</span> - <span>cold_chills</span> : <span>yes</span></div>",
+					"status": "additional"
+				},
+				"effectiveDateTime": "2020-12-15T00:46:43.680Z",
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "43724002",
+							"display": "Chill"
+						}
+					]
+				},
+				"status": "preliminary",
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "https://fhir.loinc.org/ValueSet/LL3044-6",
+							"code": "Y",
+							"display": "yes"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/123"
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Observation/coldchills-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Observation/tired-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "tired-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"div": "<div class=\"fhirObservation\"><span>Observation</span> - <span>tired</span> : <span>yes</span></div>",
+					"status": "additional"
+				},
+				"effectiveDateTime": "2020-12-15T00:46:43.680Z",
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "224960004",
+							"display": "Tired"
+						}
+					]
+				},
+				"status": "preliminary",
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "https://fhir.loinc.org/ValueSet/LL3044-6",
+							"code": "Y",
+							"display": "yes"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/123"
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Observation/tired-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Observation/sleeping-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "sleeping-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"div": "<div class=\"fhirObservation\"><span>Observation</span> - <span>sleeping</span> : <span>more</span></div>",
+					"status": "additional"
+				},
+				"effectiveDateTime": "2020-12-15T00:46:43.680Z",
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "258158006",
+							"display": "Sleep"
+						}
+					]
+				},
+				"status": "preliminary",
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "301345002",
+							"display": "more"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/123"
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Observation/sleeping-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Observation/breathingfast-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "breathingfast-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"div": "<div class=\"fhirObservation\"><span>Observation</span> - <span>breathing_fast</span> : <span>yes</span></div>",
+					"status": "additional"
+				},
+				"effectiveDateTime": "2020-12-15T00:46:43.680Z",
+				"code": {
+					"coding": [
+						{
+							"system": "",
+							"display": ""
+						}
+					]
+				},
+				"status": "preliminary",
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "",
+							"display": "yes"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/123"
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Observation/breathingfast-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Observation/breathingstruggle-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "breathingstruggle-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"div": "<div class=\"fhirObservation\"><span>Observation</span> - <span>breathing_struggle</span> : <span>yes</span></div>",
+					"status": "additional"
+				},
+				"effectiveDateTime": "2020-12-15T00:46:43.680Z",
+				"code": {
+					"coding": [
+						{
+							"system": "",
+							"display": ""
+						}
+					]
+				},
+				"status": "preliminary",
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "",
+							"display": "yes"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/123"
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Observation/breathingstruggle-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Observation/coughingyesno-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "coughingyesno-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"div": "<div class=\"fhirObservation\"><span>Observation</span> - <span>coughing_yesno</span> : <span>yes</span></div>",
+					"status": "additional"
+				},
+				"effectiveDateTime": "2020-12-15T00:46:43.680Z",
+				"code": {
+					"coding": [
+						{
+							"system": "",
+							"display": ""
+						}
+					]
+				},
+				"status": "preliminary",
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "",
+							"display": "yes"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/123"
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Observation/coughingyesno-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Observation/coughingduration-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "coughingduration-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"div": "<div class=\"fhirObservation\"><span>Observation</span> - <span>coughing_duration</span> : <span>14 d</span></div>",
+					"status": "additional"
+				},
+				"effectiveDateTime": "2020-12-15T00:46:43.680Z",
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "49727002",
+							"display": "coughing_duration"
+						}
+					]
+				},
+				"status": "preliminary",
+				"valueQuantity": {
+					"system": "http://unitsofmeasure.org",
+					"unit": "days",
+					"code": "d",
+					"value": 14
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/123"
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Observation/coughingduration-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Observation/coughingdetailblood-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "coughingdetailblood-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"div": "<div class=\"fhirObservation\"><span>Observation</span> - <span>coughing_detail_blood</span> : <span>yes</span></div>",
+					"status": "additional"
+				},
+				"effectiveDateTime": "2020-12-15T00:46:43.680Z",
+				"code": {
+					"coding": [
+						{
+							"system": "",
+							"display": ""
+						}
+					]
+				},
+				"status": "preliminary",
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "",
+							"display": "yes"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/123"
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Observation/coughingdetailblood-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Observation/coughingdetailgreenyellowmucus-3885a9d4-16d5-4e1e-8dd5-1837eb2d9",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "coughingdetailgreenyellowmucus-3885a9d4-16d5-4e1e-8dd5-1837eb2d9",
+				"text": {
+					"div": "<div class=\"fhirObservation\"><span>Observation</span> - <span>coughing_detail_green_yellow_mucus</span> : <span>yes</span></div>",
+					"status": "additional"
+				},
+				"effectiveDateTime": "2020-12-15T00:46:43.680Z",
+				"code": {
+					"coding": [
+						{
+							"system": "",
+							"display": ""
+						}
+					]
+				},
+				"status": "preliminary",
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "",
+							"display": "yes"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/123"
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Observation/coughingdetailgreenyellowmucus-3885a9d4-16d5-4e1e-8dd5-1837eb2d9"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Observation/coughingdetailworseatnight-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "coughingdetailworseatnight-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"div": "<div class=\"fhirObservation\"><span>Observation</span> - <span>coughing_detail_worse_at_night</span> : <span>yes</span></div>",
+					"status": "additional"
+				},
+				"effectiveDateTime": "2020-12-15T00:46:43.680Z",
+				"code": {
+					"coding": [
+						{
+							"system": "",
+							"display": ""
+						}
+					]
+				},
+				"status": "preliminary",
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "",
+							"display": "yes"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/123"
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Observation/coughingdetailworseatnight-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Observation/coughingdetailwheezing-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "coughingdetailwheezing-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"div": "<div class=\"fhirObservation\"><span>Observation</span> - <span>coughing_detail_wheezing</span> : <span>yes</span></div>",
+					"status": "additional"
+				},
+				"effectiveDateTime": "2020-12-15T00:46:43.680Z",
+				"code": {
+					"coding": [
+						{
+							"system": "",
+							"display": ""
+						}
+					]
+				},
+				"status": "preliminary",
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "",
+							"display": "yes"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/123"
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Observation/coughingdetailwheezing-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Observation/nasaldischarge-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "nasaldischarge-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"div": "<div class=\"fhirObservation\"><span>Observation</span> - <span>nasal_discharge</span> : <span>clear</span></div>",
+					"status": "additional"
+				},
+				"effectiveDateTime": "2020-12-15T00:46:43.680Z",
+				"code": {
+					"coding": [
+						{
+							"system": "",
+							"display": ""
+						}
+					]
+				},
+				"status": "preliminary",
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "",
+							"display": "clear"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/123"
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Observation/nasaldischarge-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Observation/throatpain-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "throatpain-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"div": "<div class=\"fhirObservation\"><span>Observation</span> - <span>throat_pain</span> : <span>yes</span></div>",
+					"status": "additional"
+				},
+				"effectiveDateTime": "2020-12-15T00:46:43.680Z",
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "162388002",
+							"display": "Sore throat present"
+						}
+					]
+				},
+				"status": "preliminary",
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "https://fhir.loinc.org/ValueSet/LL3044-6",
+							"code": "Y",
+							"display": "yes"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/123"
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Observation/throatpain-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Observation/abdominalpain-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "abdominalpain-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"div": "<div class=\"fhirObservation\"><span>Observation</span> - <span>abdominal_pain</span> : <span>yes</span></div>",
+					"status": "additional"
+				},
+				"effectiveDateTime": "2020-12-15T00:46:43.680Z",
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "271681002",
+							"display": "Stomach Ache"
+						}
+					]
+				},
+				"status": "preliminary",
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "https://fhir.loinc.org/ValueSet/LL3044-6",
+							"code": "Y",
+							"display": "yes"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/123"
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Observation/abdominalpain-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Observation/vomiting-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "vomiting-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"div": "<div class=\"fhirObservation\"><span>Observation</span> - <span>vomiting</span> : <span>yes</span></div>",
+					"status": "additional"
+				},
+				"effectiveDateTime": "2020-12-15T00:46:43.680Z",
+				"code": {
+					"coding": [
+						{
+							"system": "",
+							"display": ""
+						}
+					]
+				},
+				"status": "preliminary",
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "",
+							"display": "yes"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/123"
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Observation/vomiting-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Observation/vomitingfrequency-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "vomitingfrequency-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"div": "<div class=\"fhirObservation\"><span>Observation</span> - <span>vomiting_frequency</span> : <span>7 per day</span></div>",
+					"status": "additional"
+				},
+				"effectiveDateTime": "2020-12-15T00:46:43.680Z",
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "249497008",
+							"display": "vomiting_frequency"
+						}
+					]
+				},
+				"status": "preliminary",
+				"valueRatio": {
+					"numerator": {
+						"value": 7
+					},
+					"denominator": {
+						"system": "http://hl7.org/fhir/ValueSet/ucum-units",
+						"code": "/d",
+						"unit": "per day"
+					}
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/123"
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Observation/vomitingfrequency-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Observation/vomitingdetailchild-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "vomitingdetailchild-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"div": "<div class=\"fhirObservation\"><span>Observation</span> - <span>vomiting_detail_child</span> : <span>clear</span></div>",
+					"status": "additional"
+				},
+				"effectiveDateTime": "2020-12-15T00:46:43.680Z",
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "249497008",
+							"display": "Vomiting symptom"
+						}
+					]
+				},
+				"status": "preliminary",
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "16932000",
+							"display": "clear"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/123"
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Observation/vomitingdetailchild-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Observation/forcefulvomit-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "forcefulvomit-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"div": "<div class=\"fhirObservation\"><span>Observation</span> - <span>forceful_vomit</span> : <span>yes</span></div>",
+					"status": "additional"
+				},
+				"effectiveDateTime": "2020-12-15T00:46:43.680Z",
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "8579004",
+							"display": "Violent retching"
+						}
+					]
+				},
+				"status": "preliminary",
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "https://fhir.loinc.org/ValueSet/LL3044-6",
+							"code": "Y",
+							"display": "yes"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/123"
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Observation/forcefulvomit-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Observation/diarrheayesno-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "diarrheayesno-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"div": "<div class=\"fhirObservation\"><span>Observation</span> - <span>diarrhea_yesno</span> : <span>yes</span></div>",
+					"status": "additional"
+				},
+				"effectiveDateTime": "2020-12-15T00:46:43.680Z",
+				"code": {
+					"coding": [
+						{
+							"system": "",
+							"display": ""
+						}
+					]
+				},
+				"status": "preliminary",
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "",
+							"display": "yes"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/123"
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Observation/diarrheayesno-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Observation/diarrheafrequency-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "diarrheafrequency-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"div": "<div class=\"fhirObservation\"><span>Observation</span> - <span>diarrhea_frequency</span> : <span>6 per day</span></div>",
+					"status": "additional"
+				},
+				"effectiveDateTime": "2020-12-15T00:46:43.680Z",
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "300380005",
+							"display": "diarrhea_frequency"
+						}
+					]
+				},
+				"status": "preliminary",
+				"valueRatio": {
+					"numerator": {
+						"value": 6
+					},
+					"denominator": {
+						"system": "http://hl7.org/fhir/ValueSet/ucum-units",
+						"code": "/d",
+						"unit": "per day"
+					}
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/123"
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Observation/diarrheafrequency-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Observation/stool-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "stool-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"div": "<div class=\"fhirObservation\"><span>Observation</span> - <span>stool</span> : <span>watery</span></div>",
+					"status": "additional"
+				},
+				"effectiveDateTime": "2020-12-15T00:46:43.680Z",
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "249612005",
+							"display": "Stool features"
+						}
+					]
+				},
+				"status": "preliminary",
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "398212009",
+							"display": "watery"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/123"
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Observation/stool-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Observation/lasturination-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "lasturination-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"div": "<div class=\"fhirObservation\"><span>Observation</span> - <span>last_urination</span> : <span>11 h</span></div>",
+					"status": "additional"
+				},
+				"effectiveDateTime": "2020-12-15T00:46:43.680Z",
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "251411003",
+							"display": "Last past urine"
+						}
+					]
+				},
+				"status": "preliminary",
+				"valueQuantity": {
+					"system": "http://hl7.org/fhir/ValueSet/duration-units",
+					"unit": "hours",
+					"code": "h",
+					"value": 11
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/123"
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Observation/lasturination-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Observation/drinking-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "drinking-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"div": "<div class=\"fhirObservation\"><span>Observation</span> - <span>drinking</span> : <span>more</span></div>",
+					"status": "additional"
+				},
+				"effectiveDateTime": "2020-12-15T00:46:43.680Z",
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "252045004",
+							"display": "Fluid intake frequency"
+						}
+					]
+				},
+				"status": "preliminary",
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "267026004",
+							"display": "more"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/123"
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Observation/drinking-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Observation/tears-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "tears-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"div": "<div class=\"fhirObservation\"><span>Observation</span> - <span>tears</span> : <span>no</span></div>",
+					"status": "additional"
+				},
+				"effectiveDateTime": "2020-12-15T00:46:43.680Z",
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "64702000",
+							"display": "Tear production"
+						}
+					]
+				},
+				"status": "preliminary",
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/v2-0136",
+							"code": "246849001",
+							"display": "no"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/123"
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Observation/tears-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Observation/latching-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "latching-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"div": "<div class=\"fhirObservation\"><span>Observation</span> - <span>latching</span> : <span>normal</span></div>",
+					"status": "additional"
+				},
+				"effectiveDateTime": "2020-12-15T00:46:43.680Z",
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "64809004",
+							"display": "Finding related to ability to latch on to breast for feeding"
+						}
+					]
+				},
+				"status": "preliminary",
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/v2-0136",
+							"code": "288988007",
+							"display": "normal"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/123"
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Observation/latching-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Observation/hungryafterfeeding-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "hungryafterfeeding-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"div": "<div class=\"fhirObservation\"><span>Observation</span> - <span>hungry_after_feeding</span> : <span>yes</span></div>",
+					"status": "additional"
+				},
+				"effectiveDateTime": "2020-12-15T00:46:43.680Z",
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "24863003",
+							"display": "Postprandial hunger"
+						}
+					]
+				},
+				"status": "preliminary",
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/v2-0136",
+							"code": "55350005",
+							"display": "yes"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/123"
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Observation/hungryafterfeeding-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Observation/disposition-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "disposition-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"div": "<div class=\"fhirObservation\"><span>Observation</span> - <span>disposition</span> : <span>irritable</span></div>",
+					"status": "additional"
+				},
+				"effectiveDateTime": "2020-12-15T00:46:43.680Z",
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "64809004",
+							"display": "mood finding"
+						}
+					]
+				},
+				"status": "preliminary",
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/v2-0136",
+							"code": "55929007",
+							"display": "irritable"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/123"
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Observation/disposition-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Observation/newbornconsolable-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "newbornconsolable-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"div": "<div class=\"fhirObservation\"><span>Observation</span> - <span>newborn_consolable</span> : <span>no</span></div>",
+					"status": "additional"
+				},
+				"effectiveDateTime": "2020-12-15T00:46:43.680Z",
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "766877008",
+							"display": "Constantly crying infant"
+						}
+					]
+				},
+				"status": "preliminary",
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "https://fhir.loinc.org/ValueSet/LL3044-6",
+							"code": "N",
+							"display": "no"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/123"
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Observation/newbornconsolable-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Observation/weight-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "weight-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"div": "<div class=\"fhirObservation\"><span>Observation</span> - <span>weight</span> : <span>15 kg</span></div>",
+					"status": "additional"
+				},
+				"effectiveDateTime": "2020-12-15T00:46:43.680Z",
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "27113001",
+							"display": "Body weight"
+						}
+					]
+				},
+				"status": "preliminary",
+				"valueQuantity": {
+					"system": "http://unitsofmeasure.org",
+					"unit": "kg",
+					"code": "kg",
+					"value": 15
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/123"
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Observation/weight-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Observation/height-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "height-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"div": "<div class=\"fhirObservation\"><span>Observation</span> - <span>height</span> : <span>53 cm</span></div>",
+					"status": "additional"
+				},
+				"effectiveDateTime": "2020-12-15T00:46:43.680Z",
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "50373000",
+							"display": "Body height"
+						}
+					]
+				},
+				"status": "preliminary",
+				"valueQuantity": {
+					"system": "http://unitsofmeasure.org",
+					"unit": "cm",
+					"code": "cm",
+					"value": 53
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/123"
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Observation/height-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Observation/temperature-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "temperature-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"div": "<div class=\"fhirObservation\"><span>Observation</span> - <span>temperature</span> : <span>37.6 C</span></div>",
+					"status": "additional"
+				},
+				"effectiveDateTime": "2020-12-15T00:46:43.680Z",
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "386725007",
+							"display": "Body temperature"
+						}
+					]
+				},
+				"status": "preliminary",
+				"valueQuantity": {
+					"system": "http://unitsofmeasure.org",
+					"unit": "degrees C",
+					"code": "C",
+					"value": 37.6
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/123"
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Observation/temperature-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Observation/heartrate-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "heartrate-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"div": "<div class=\"fhirObservation\"><span>Observation</span> - <span>heart_rate</span> : <span>382 /min</span></div>",
+					"status": "additional"
+				},
+				"effectiveDateTime": "2020-12-15T00:46:43.680Z",
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "364075005",
+							"display": "Heart rate"
+						}
+					]
+				},
+				"status": "preliminary",
+				"valueQuantity": {
+					"system": "http://unitsofmeasure.org",
+					"unit": "beats/minute",
+					"code": "/min",
+					"value": 382
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/123"
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Observation/heartrate-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Observation/respiratoryrate-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "respiratoryrate-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"div": "<div class=\"fhirObservation\"><span>Observation</span> - <span>respiratory_rate</span> : <span>371 /min</span></div>",
+					"status": "additional"
+				},
+				"effectiveDateTime": "2020-12-15T00:46:43.680Z",
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "86290005",
+							"display": "Respiratory rate"
+						}
+					]
+				},
+				"status": "preliminary",
+				"valueQuantity": {
+					"system": "http://unitsofmeasure.org",
+					"unit": "breaths/minute",
+					"code": "/min",
+					"value": 371
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/123"
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Observation/respiratoryrate-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Observation/oxygensaturation-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "oxygensaturation-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"div": "<div class=\"fhirObservation\"><span>Observation</span> - <span>oxygen_saturation</span> : <span>80 %</span></div>",
+					"status": "additional"
+				},
+				"effectiveDateTime": "2020-12-15T00:46:43.680Z",
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "86290005",
+							"display": "Oxygen saturation measurement"
+						}
+					]
+				},
+				"status": "preliminary",
+				"valueQuantity": {
+					"system": "http://unitsofmeasure.org",
+					"unit": "%",
+					"code": "%",
+					"value": 80
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/123"
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Observation/oxygensaturation-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Observation/muac-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "muac-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"div": "<div class=\"fhirObservation\"><span>Observation</span> - <span>muac</span> : <span>yellow</span></div>",
+					"status": "additional"
+				},
+				"effectiveDateTime": "2020-12-15T00:46:43.680Z",
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "284473002",
+							"display": "Mid upper arm circumference"
+						}
+					]
+				},
+				"status": "preliminary",
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "http://hl7.org/fhir/metric-color",
+							"code": "yellow",
+							"display": "yellow"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/123"
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Observation/muac-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Observation/skinturgor-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "skinturgor-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"div": "<div class=\"fhirObservation\"><span>Observation</span> - <span>skin_turgor</span> : <span>less</span></div>",
+					"status": "additional"
+				},
+				"effectiveDateTime": "2020-12-15T00:46:43.680Z",
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "26669000",
+							"display": "Skin turgor"
+						}
+					]
+				},
+				"status": "preliminary",
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "425244000",
+							"display": "less"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/123"
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Observation/skinturgor-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Observation/capillaryrefill-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "capillaryrefill-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"div": "<div class=\"fhirObservation\"><span>Observation</span> - <span>capillary_refill</span> : <span>less</span></div>",
+					"status": "additional"
+				},
+				"effectiveDateTime": "2020-12-15T00:46:43.680Z",
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "248753002",
+							"display": "Capillary refill"
+						}
+					]
+				},
+				"status": "preliminary",
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "50427001",
+							"display": "less"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/123"
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Observation/capillaryrefill-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Observation/swollenface-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "swollenface-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"div": "<div class=\"fhirObservation\"><span>Observation</span> - <span>swollen_face</span> : <span>yes</span></div>",
+					"status": "additional"
+				},
+				"effectiveDateTime": "2020-12-15T00:46:43.680Z",
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "278528006",
+							"display": "Swollen face"
+						}
+					]
+				},
+				"status": "preliminary",
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/v2-0136",
+							"code": "55350005",
+							"display": "yes"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/123"
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Observation/swollenface-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Observation/paleeyelids-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "paleeyelids-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"div": "<div class=\"fhirObservation\"><span>Observation</span> - <span>pale_eyelids</span> : <span>yes</span></div>",
+					"status": "additional"
+				},
+				"effectiveDateTime": "2020-12-15T00:46:43.680Z",
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "246875002",
+							"display": "Pale eyelids"
+						}
+					]
+				},
+				"status": "preliminary",
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "719640000",
+							"display": "yes"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/123"
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Observation/paleeyelids-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Observation/redeyes-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "redeyes-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"div": "<div class=\"fhirObservation\"><span>Observation</span> - <span>red_eyes</span> : <span>yes</span></div>",
+					"status": "additional"
+				},
+				"effectiveDateTime": "2020-12-15T00:46:43.680Z",
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "703630003",
+							"display": "red eyes"
+						}
+					]
+				},
+				"status": "preliminary",
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/v2-0136",
+							"code": "55350005",
+							"display": "yes"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/123"
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Observation/redeyes-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Observation/eyedischargeclear-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "eyedischargeclear-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"div": "<div class=\"fhirObservation\"><span>Observation</span> - <span>eye_discharge_clear</span> : <span>yes</span></div>",
+					"status": "additional"
+				},
+				"effectiveDateTime": "2020-12-15T00:46:43.680Z",
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "246846008",
+							"display": "Sticking of eyelids - discharge"
+						}
+					]
+				},
+				"status": "preliminary",
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/v2-0136",
+							"code": "55350005",
+							"display": "yes"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/123"
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Observation/eyedischargeclear-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Observation/eyedischargeyellowgreen-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "eyedischargeyellowgreen-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"div": "<div class=\"fhirObservation\"><span>Observation</span> - <span>eye_discharge_yellow_green</span> : <span>yes</span></div>",
+					"status": "additional"
+				},
+				"effectiveDateTime": "2020-12-15T00:46:43.680Z",
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "246846008",
+							"display": "Sticking of eyelids - discharge"
+						}
+					]
+				},
+				"status": "preliminary",
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/v2-0136",
+							"code": "55350005",
+							"display": "yes"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/123"
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Observation/eyedischargeyellowgreen-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Observation/nasalflaringorretractions-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "nasalflaringorretractions-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"div": "<div class=\"fhirObservation\"><span>Observation</span> - <span>nasal_flaring_or_retractions</span> : <span>yes</span></div>",
+					"status": "additional"
+				},
+				"effectiveDateTime": "2020-12-15T00:46:43.680Z",
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "248568003",
+							"display": "Nasal flaring"
+						}
+					]
+				},
+				"status": "preliminary",
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "https://fhir.loinc.org/ValueSet/LL3044-6",
+							"code": "Y",
+							"display": "yes"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/123"
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Observation/nasalflaringorretractions-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Observation/chestindrawing-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "chestindrawing-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"div": "<div class=\"fhirObservation\"><span>Observation</span> - <span>chest_indrawing</span> : <span>yes</span></div>",
+					"status": "additional"
+				},
+				"effectiveDateTime": "2020-12-15T00:46:43.680Z",
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "8453006",
+							"display": "Subcostal recession"
+						}
+					]
+				},
+				"status": "preliminary",
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "https://fhir.loinc.org/ValueSet/LL3044-6",
+							"code": "Y",
+							"display": "yes"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/123"
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Observation/chestindrawing-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Observation/headbobbing-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "headbobbing-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"div": "<div class=\"fhirObservation\"><span>Observation</span> - <span>head_bobbing</span> : <span>yes</span></div>",
+					"status": "additional"
+				},
+				"effectiveDateTime": "2020-12-15T00:46:43.680Z",
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "248568003",
+							"display": "Head bobbing"
+						}
+					]
+				},
+				"status": "preliminary",
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "https://fhir.loinc.org/ValueSet/LL3044-6",
+							"code": "Y",
+							"display": "yes"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/123"
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Observation/headbobbing-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Observation/wheezing-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "wheezing-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"div": "<div class=\"fhirObservation\"><span>Observation</span> - <span>wheezing</span> : <span>yes</span></div>",
+					"status": "additional"
+				},
+				"effectiveDateTime": "2020-12-15T00:46:43.680Z",
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "56018004",
+							"display": "wheezing"
+						}
+					]
+				},
+				"status": "preliminary",
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "https://fhir.loinc.org/ValueSet/LL3044-6",
+							"code": "Y",
+							"display": "yes"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/123"
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Observation/wheezing-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Observation/painwhenmovingneck-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "painwhenmovingneck-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"div": "<div class=\"fhirObservation\"><span>Observation</span> - <span>pain_when_moving_neck</span> : <span>yes</span></div>",
+					"status": "additional"
+				},
+				"effectiveDateTime": "2020-12-15T00:46:43.680Z",
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "81680005",
+							"display": "neck pain"
+						}
+					]
+				},
+				"status": "preliminary",
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "https://fhir.loinc.org/ValueSet/LL3044-6",
+							"code": "Y",
+							"display": "yes"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/123"
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Observation/painwhenmovingneck-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Observation/rash-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "rash-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"div": "<div class=\"fhirObservation\"><span>Observation</span> - <span>rash</span> : <span>yes</span></div>",
+					"status": "additional"
+				},
+				"effectiveDateTime": "2020-12-15T00:46:43.680Z",
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "89757007",
+							"display": "Macular rash"
+						}
+					]
+				},
+				"status": "preliminary",
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "https://fhir.loinc.org/ValueSet/LL3044-6",
+							"code": "Y",
+							"display": "yes"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/123"
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Observation/rash-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Observation/skinconcern-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "skinconcern-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"div": "<div class=\"fhirObservation\"><span>Observation</span> - <span>skin_concern</span> : <span>yes</span></div>",
+					"status": "additional"
+				},
+				"effectiveDateTime": "2020-12-15T00:46:43.680Z",
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "95320005",
+							"display": "Dermatopathy"
+						}
+					]
+				},
+				"status": "preliminary",
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "https://fhir.loinc.org/ValueSet/LL3044-6",
+							"code": "Y",
+							"display": "yes"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/123"
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Observation/skinconcern-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Observation/skinswelling-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "skinswelling-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"div": "<div class=\"fhirObservation\"><span>Observation</span> - <span>skin_swelling</span> : <span>no</span></div>",
+					"status": "additional"
+				},
+				"effectiveDateTime": "2020-12-15T00:46:43.680Z",
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "300886007",
+							"display": "Swelling of skin"
+						}
+					]
+				},
+				"status": "preliminary",
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "https://fhir.loinc.org/ValueSet/LL3044-6",
+							"code": "N",
+							"display": "no"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/123"
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Observation/skinswelling-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Observation/skinred-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "skinred-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"div": "<div class=\"fhirObservation\"><span>Observation</span> - <span>skin_red</span> : <span>yes</span></div>",
+					"status": "additional"
+				},
+				"effectiveDateTime": "2020-12-15T00:46:43.680Z",
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "164424003",
+							"display": "On examination - skin red"
+						}
+					]
+				},
+				"status": "preliminary",
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "https://fhir.loinc.org/ValueSet/LL3044-6",
+							"code": "Y",
+							"display": "yes"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/123"
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Observation/skinred-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Observation/skinpain-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "skinpain-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"div": "<div class=\"fhirObservation\"><span>Observation</span> - <span>skin_pain</span> : <span>yes</span></div>",
+					"status": "additional"
+				},
+				"effectiveDateTime": "2020-12-15T00:46:43.680Z",
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "301364008",
+							"display": "Pain of skin"
+						}
+					]
+				},
+				"status": "preliminary",
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "https://fhir.loinc.org/ValueSet/LL3044-6",
+							"code": "Y",
+							"display": "yes"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/123"
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Observation/skinpain-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Observation/skindischarge-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "skindischarge-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"div": "<div class=\"fhirObservation\"><span>Observation</span> - <span>skin_discharge</span> : <span>yes</span></div>",
+					"status": "additional"
+				},
+				"effectiveDateTime": "2020-12-15T00:46:43.680Z",
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "297970000",
+							"display": "Skin Discharge"
+						}
+					]
+				},
+				"status": "preliminary",
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "https://fhir.loinc.org/ValueSet/LL3044-6",
+							"code": "Y",
+							"display": "yes"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/123"
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Observation/skindischarge-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Observation/boil-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "boil-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"div": "<div class=\"fhirObservation\"><span>Observation</span> - <span>boil</span> : <span>yes</span></div>",
+					"status": "additional"
+				},
+				"effectiveDateTime": "2020-12-15T00:46:43.680Z",
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "416675009",
+							"display": "boil"
+						}
+					]
+				},
+				"status": "preliminary",
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "https://fhir.loinc.org/ValueSet/LL3044-6",
+							"code": "Y",
+							"display": "yes"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/123"
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Observation/boil-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Observation/impetigo-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "impetigo-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"div": "<div class=\"fhirObservation\"><span>Observation</span> - <span>impetigo</span> : <span>yes</span></div>",
+					"status": "additional"
+				},
+				"effectiveDateTime": "2020-12-15T00:46:43.680Z",
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "48055004",
+							"display": "Pustular eruption"
+						}
+					]
+				},
+				"status": "preliminary",
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "https://fhir.loinc.org/ValueSet/LL3044-6",
+							"code": "Y",
+							"display": "yes"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/123"
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Observation/impetigo-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Observation/ringworm-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "ringworm-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"div": "<div class=\"fhirObservation\"><span>Observation</span> - <span>ringworm</span> : <span>yes</span></div>",
+					"status": "additional"
+				},
+				"effectiveDateTime": "2020-12-15T00:46:43.680Z",
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "724877007",
+							"display": "ringworm"
+						}
+					]
+				},
+				"status": "preliminary",
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/v2-0136",
+							"code": "260399008",
+							"display": "yes"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/123"
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Observation/ringworm-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Observation/chickenpox-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "chickenpox-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"div": "<div class=\"fhirObservation\"><span>Observation</span> - <span>chickenpox</span> : <span>yes</span></div>",
+					"status": "additional"
+				},
+				"effectiveDateTime": "2020-12-15T00:46:43.680Z",
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "53788007",
+							"display": "Vesicular rash"
+						}
+					]
+				},
+				"status": "preliminary",
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "https://fhir.loinc.org/ValueSet/LL3044-6",
+							"code": "Y",
+							"display": "yes"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/123"
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Observation/chickenpox-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Observation/swellingofthefeet-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "swellingofthefeet-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"div": "<div class=\"fhirObservation\"><span>Observation</span> - <span>swelling_of_the_feet</span> : <span>yes</span></div>",
+					"status": "additional"
+				},
+				"effectiveDateTime": "2020-12-15T00:46:43.680Z",
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "762917000",
+							"display": "Swelling of bilateral feet"
+						}
+					]
+				},
+				"status": "preliminary",
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "https://fhir.loinc.org/ValueSet/LL3044-6",
+							"code": "Y",
+							"display": "yes"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/123"
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Observation/swellingofthefeet-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Observation/coughing-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "coughing-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"div": "<div class=\"fhirObservation\"><span>Observation</span> - <span>coughing</span> : <span>mild</span></div>",
+					"status": "additional"
+				},
+				"effectiveDateTime": "2020-12-15T00:46:43.680Z",
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "263731006",
+							"display": "Coughing"
+						}
+					]
+				},
+				"status": "preliminary",
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "",
+							"display": "mild"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/123"
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Observation/coughing-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Observation/diarrhea-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "diarrhea-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"div": "<div class=\"fhirObservation\"><span>Observation</span> - <span>diarrhea</span> : <span>moderate</span></div>",
+					"status": "additional"
+				},
+				"effectiveDateTime": "2020-12-15T00:46:43.680Z",
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "267060006",
+							"display": "Diarrhea symptom"
+						}
+					]
+				},
+				"status": "preliminary",
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "",
+							"display": "moderate"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/123"
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Observation/diarrhea-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Observation/vomitingseverity-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "vomitingseverity-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"div": "<div class=\"fhirObservation\"><span>Observation</span> - <span>vomiting_severity</span> : <span>moderate</span></div>",
+					"status": "additional"
+				},
+				"effectiveDateTime": "2020-12-15T00:46:43.680Z",
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "249497008",
+							"display": "Vomiting severity"
+						}
+					]
+				},
+				"status": "preliminary",
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "http://hl7.org/fhir/ValueSet/duration-units",
+							"display": "moderate"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/123"
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Observation/vomitingseverity-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Observation/urinating-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "urinating-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"div": "<div class=\"fhirObservation\"><span>Observation</span> - <span>urinating</span> : <span>less</span></div>",
+					"status": "additional"
+				},
+				"effectiveDateTime": "2020-12-15T00:46:43.680Z",
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "364198000",
+							"display": "Frequency of urination"
+						}
+					]
+				},
+				"status": "preliminary",
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "",
+							"display": "less"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/123"
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Observation/urinating-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7",
+			"resource": {
+				"resourceType": "Patient",
+				"id": "ThinkMD-33cc0036-e278-4278-8768-48040f1426f7",
+				"text": {
+					"status": "generated",
+					"div": "<div class=\"fhirPatient\" style=\"font-size: 16px;font-family: Roboto,sans-serif;line-height: 1.5;box-sizing: inherit;background-repeat: no-repeat;padding: 0;margin: 0;display: block;max-width: 100%;outline:none;text-decoration: none;transition-property: box-shadow,opacity,-webkit-box-shadow;overflow-wrap: break-word;position: relative;white-space: normal;transition: box-shadow.28s cubic-bezier(.4,0,.2,1),-webkit-box-shadow .28s cubic-bezier(.4,0,.2,1);will-change: box-shadow;box-shadow: 0 3px 1px -2px rgba(0,0,0,.2),0 2px 2px 0 rgba(0,0,0,.14),0 1px5px 0 rgba(0,0,0,.12);color: rgba(0,0,0,.87);margin-bottom: 8px!important;background-color: #e1ded4 !important;border-color: #e1ded4 !important;border-radius: 4px;\"><div><span style=\"text-rendering: optimizeLegibility;font-family: Roboto,sans-serif;overflow-wrap: break-word;white-space: normal;font-size: 1.25rem;font-weight: 500;letter-spacing:.0125em;line-height: 2rem;word-break: break-all;color: #424242!important;caret-color: #424242!important;box-sizing: inherit;background-repeat: no-repeat;padding: 0;margin: 0;\" ></span></div><hr style=\"font-size: 16px;font-family: Roboto,sans-serif;line-height: 1.5;overflow-wrap: break-word;white-space: normal;color: rgba(0,0,0,.87);box-sizing: inherit;background-repeat: no-repeat;padding: 0;margin: 0;display: block;max-width: 100%;height: 0;max-height: 0;border: solid;border-width: thin 0 0 0;transition: inherit;border-color:rgba(0,0,0,.12);margin-right: 4px!important;margin-left: 4px!important;\"></hr><div><span style=\"text-rendering: optimizeLegibility;font-family: Roboto,sans-serif;overflow-wrap: break-word;white-space: normal;font-size: .875rem;font-weight: 400;line-height: 1.375rem;letter-spacing: .0071428571em;color: rgba(0,0,0,.6);box-sizing: inherit;background-repeat: no-repeat;padding: 0;margin: 0;\">Patient: </span></div></div>"
+				},
+				"active": true,
+				"gender": "male",
+				"identifier": [
+					{
+						"system": "urn:oid:2.16.840.1.113883.19.5",
+						"type": {
+							"coding": [
+								{
+									"code": "MR",
+									"display": null,
+									"system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+								}
+							]
+						},
+						"use": "usual",
+						"value": ""
+					}
+				],
+				"name": [
+					{
+						"text": ""
+					}
+				],
+				"communication": [
+					{
+						"language": {
+							"coding": [
+								{
+									"system": "urn:ietf:bcp:47",
+									"code": "en-US"
+								}
+							],
+							"text": "en-US"
+						}
+					}
+				]
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Practitioner/123",
+			"resource": {
+				"resourceType": "Practitioner",
+				"id": "123",
+				"text": {
+					"status": "generated",
+					"div": "<div class=\"fhirPractitioner\" style=\"font-size: 16px;font-family: Roboto,sans-serif;line-height: 1.5;box-sizing: inherit;background-repeat: no-repeat;padding: 0;margin: 0;display: block;max-width: 100%;outline:none;text-decoration: none;transition-property: box-shadow,opacity,-webkit-box-shadow;overflow-wrap: break-word;position: relative;white-space: normal;transition: box-shadow.28s cubic-bezier(.4,0,.2,1),-webkit-box-shadow .28s cubic-bezier(.4,0,.2,1);will-change: box-shadow;box-shadow: 0 3px 1px -2px rgba(0,0,0,.2),0 2px 2px 0 rgba(0,0,0,.14),0 1px5px 0 rgba(0,0,0,.12);color: rgba(0,0,0,.87);margin-bottom: 8px!important;background-color: #e1ded4 !important;border-color: #e1ded4 !important;border-radius: 4px;\"><div><span style=\"text-rendering: optimizeLegibility;font-family: Roboto,sans-serif;overflow-wrap: break-word;white-space: normal;font-size: 1.25rem;font-weight: 500;letter-spacing:.0125em;line-height: 2rem;word-break: break-all;color: #424242!important;caret-color: #424242!important;box-sizing: inherit;background-repeat: no-repeat;padding: 0;margin: 0;\" ></span></div><hr style=\"font-size: 16px;font-family: Roboto,sans-serif;line-height: 1.5;overflow-wrap: break-word;white-space: normal;color: rgba(0,0,0,.87);box-sizing: inherit;background-repeat: no-repeat;padding: 0;margin: 0;display: block;max-width: 100%;height: 0;max-height: 0;border: solid;border-width: thin 0 0 0;transition: inherit;border-color:rgba(0,0,0,.12);margin-right: 4px!important;margin-left: 4px!important;\"></hr><div><span style=\"text-rendering: optimizeLegibility;font-family: Roboto,sans-serif;overflow-wrap: break-word;white-space: normal;font-size: .875rem;font-weight: 400;line-height: 1.375rem;letter-spacing: .0071428571em;color: rgba(0,0,0,.6);box-sizing: inherit;background-repeat: no-repeat;padding: 0;margin: 0;\">Practitioner: 123</span></div></div>"
+				},
+				"active": true,
+				"identifier": [
+					{
+						"value": "123"
+					}
+				],
+				"name": []
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Practitioner/123"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/MedicationRequest/oxygen-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "MedicationRequest",
+				"id": "oxygen-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"status": "active",
+				"intent": "proposal",
+				"medicationCodeableConcept": {
+					"coding": [
+						{
+							"display": "oxygen"
+						}
+					],
+					"text": "Oxygen"
+				},
+				"dosageInstruction": [
+					{
+						"text": "If possible by oxygen mask with reservoir at 10-15L/min"
+					}
+				],
+				"authoredOn": "2020-12-15T00:46:43.680Z",
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"requester": {
+					"reference": "Practitioner/123"
+				},
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "MedicationRequest/oxygen-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/MedicationRequest/amoxicillin-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "MedicationRequest",
+				"id": "amoxicillin-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"status": "active",
+				"intent": "proposal",
+				"medicationCodeableConcept": {
+					"coding": [
+						{
+							"display": "amoxicillin"
+						}
+					],
+					"text": "Amoxicillin"
+				},
+				"dosageInstruction": [
+					{
+						"text": "Start  3  dispersible tablet(s) Amoxicillin (250mg)   or 15 ml (250mg / 5ml syrup)    twice per day for 5 days "
+					}
+				],
+				"authoredOn": "2020-12-15T00:46:43.680Z",
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"requester": {
+					"reference": "Practitioner/123"
+				},
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "MedicationRequest/amoxicillin-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/MedicationRequest/orsbyngt-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "MedicationRequest",
+				"id": "orsbyngt-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"status": "active",
+				"intent": "proposal",
+				"medicationCodeableConcept": {
+					"coding": [
+						{
+							"display": "ors_by_ngt"
+						}
+					],
+					"text": "Oral Rehydration Solution (ORS) by Nasal Gastric Tube (clinic or hospital)"
+				},
+				"dosageInstruction": [
+					{
+						"text": "If IV unavailable, and if unable to drink by mouth, give      1800ml  over 6 hours "
+					}
+				],
+				"authoredOn": "2020-12-15T00:46:43.680Z",
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"requester": {
+					"reference": "Practitioner/123"
+				},
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "MedicationRequest/orsbyngt-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/MedicationRequest/saline-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "MedicationRequest",
+				"id": "saline-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"status": "active",
+				"intent": "proposal",
+				"medicationCodeableConcept": {
+					"coding": [
+						{
+							"display": "saline"
+						}
+					],
+					"text": "Lactated Ringers or Normal Saline (clinic or hospital)"
+				},
+				"dosageInstruction": [
+					{
+						"text": "If hemoglobin > 5, give     Lactated Ringers or Normal Saline (clinic or hospital) 450ml (or cc)  over 1 hour then give     1050ml (or cc)  over 5 hours "
+					}
+				],
+				"authoredOn": "2020-12-15T00:46:43.680Z",
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"requester": {
+					"reference": "Practitioner/123"
+				},
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "MedicationRequest/saline-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/MedicationRequest/orsbymouthdiarrhea-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "MedicationRequest",
+				"id": "orsbymouthdiarrhea-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"status": "active",
+				"intent": "proposal",
+				"medicationCodeableConcept": {
+					"coding": [
+						{
+							"display": "ors_by_mouth_diarrhea"
+						}
+					],
+					"text": "Extra for diarrhea: ORS by mouth"
+				},
+				"dosageInstruction": [
+					{
+						"text": "Start    cup(s)     or     ml   "
+					}
+				],
+				"authoredOn": "2020-12-15T00:46:43.680Z",
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"requester": {
+					"reference": "Practitioner/123"
+				},
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "MedicationRequest/orsbymouthdiarrhea-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/MedicationRequest/zinc-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "MedicationRequest",
+				"id": "zinc-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"status": "active",
+				"intent": "proposal",
+				"medicationCodeableConcept": {
+					"coding": [
+						{
+							"display": "zinc"
+						}
+					],
+					"text": "Zinc"
+				},
+				"dosageInstruction": [
+					{
+						"text": "    tablet(s)  (20mg) every  day for 10 days "
+					}
+				],
+				"authoredOn": "2020-12-15T00:46:43.680Z",
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"requester": {
+					"reference": "Practitioner/123"
+				},
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "MedicationRequest/zinc-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/MedicationRequest/orsbymouth-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "MedicationRequest",
+				"id": "orsbymouth-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"status": "active",
+				"intent": "proposal",
+				"medicationCodeableConcept": {
+					"coding": [
+						{
+							"display": "ors_by_mouth"
+						}
+					],
+					"text": "Oral Rehydration Solution (ORS) by mouth"
+				},
+				"dosageInstruction": [
+					{
+						"text": "Start  3 1&#x2F;2 - 5 1&#x2F;2   cup(s)    or 840-1320 ml     every 4 hours until urine is clear or there is a normal number of wet diapers"
+					}
+				],
+				"authoredOn": "2020-12-15T00:46:43.680Z",
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"requester": {
+					"reference": "Practitioner/123"
+				},
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "MedicationRequest/orsbymouth-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/MedicationRequest/cefalexinorcloxicillin-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "MedicationRequest",
+				"id": "cefalexinorcloxicillin-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"status": "active",
+				"intent": "proposal",
+				"medicationCodeableConcept": {
+					"coding": [
+						{
+							"display": "cefalexin_or_cloxicillin"
+						}
+					],
+					"text": "Cefalexin or Cloxacillin"
+				},
+				"dosageInstruction": [
+					{
+						"text": "Consider Starting   180mg   Cefalexin   or  380-760mg  IM Cloxacillin 4 times a day for 5 days "
+					}
+				],
+				"authoredOn": "2020-12-15T00:46:43.680Z",
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"requester": {
+					"reference": "Practitioner/123"
+				},
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "MedicationRequest/cefalexinorcloxicillin-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/MedicationRequest/ciprofloxicin-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "MedicationRequest",
+				"id": "ciprofloxicin-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"status": "active",
+				"intent": "proposal",
+				"medicationCodeableConcept": {
+					"coding": [
+						{
+							"display": "ciprofloxicin"
+						}
+					],
+					"text": "Ciprofloxicin"
+				},
+				"dosageInstruction": [
+					{
+						"text": "Start    tablet(s)  (250mg) 2 times a day for 3 days "
+					}
+				],
+				"authoredOn": "2020-12-15T00:46:43.680Z",
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"requester": {
+					"reference": "Practitioner/123"
+				},
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "MedicationRequest/ciprofloxicin-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/MedicationRequest/ceftriaxone-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "MedicationRequest",
+				"id": "ceftriaxone-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"status": "active",
+				"intent": "proposal",
+				"medicationCodeableConcept": {
+					"coding": [
+						{
+							"display": "ceftriaxone"
+						}
+					],
+					"text": "Ceftriaxone"
+				},
+				"dosageInstruction": [
+					{
+						"text": "Start   750mg   Ceftriaxone 2 times a day  or  750mg   Cefotaxime 3 times a day or every 8 hours for 10 days"
+					}
+				],
+				"authoredOn": "2020-12-15T00:46:43.680Z",
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"requester": {
+					"reference": "Practitioner/123"
+				},
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "MedicationRequest/ceftriaxone-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/MedicationRequest/dexamethasonemeningitis-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "MedicationRequest",
+				"id": "dexamethasonemeningitis-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"status": "active",
+				"intent": "proposal",
+				"medicationCodeableConcept": {
+					"coding": [
+						{
+							"display": "dexamethasone_meningitis"
+						}
+					],
+					"text": "Dexamethasone"
+				},
+				"dosageInstruction": [
+					{
+						"text": "Start   2mg IM  Dexamethasone 4 times a day for 4 days . Give same time as antibiotics"
+					}
+				],
+				"authoredOn": "2020-12-15T00:46:43.680Z",
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"requester": {
+					"reference": "Practitioner/123"
+				},
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "MedicationRequest/dexamethasonemeningitis-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/MedicationRequest/cotrimoxazole-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "MedicationRequest",
+				"id": "cotrimoxazole-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"status": "active",
+				"intent": "proposal",
+				"medicationCodeableConcept": {
+					"coding": [
+						{
+							"display": "cotrimoxazole"
+						}
+					],
+					"text": "Co-trimoxazole"
+				},
+				"dosageInstruction": [
+					{
+						"text": "Start Cotrimoxazole. Give  3   tablet(s) (20mg Trimethroprim + 100mg Sulfamethoxazole / 5ml)   or 2 1&#x2F;2  teaspoon syrup (40mg Trimethroprim + 200mg Sulfamethoxazole / 5ml) 2 times a day for 5 days . If Cotrimoxazole not available use treatment for Amoxicillin"
+					}
+				],
+				"authoredOn": "2020-12-15T00:46:43.680Z",
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"requester": {
+					"reference": "Practitioner/123"
+				},
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "MedicationRequest/cotrimoxazole-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/MedicationRequest/ferrousfumarate-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "MedicationRequest",
+				"id": "ferrousfumarate-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"status": "active",
+				"intent": "proposal",
+				"medicationCodeableConcept": {
+					"coding": [
+						{
+							"display": "ferrous_fumarate"
+						}
+					],
+					"text": "Ferrous Fumarate"
+				},
+				"dosageInstruction": [
+					{
+						"text": "Start  1&#x2F;2  teaspoon syrup Ferrous Fumarate (100mg/5ml)  once per day for 14 days or 1&#x2F;2   tablet(s) Ferrous Sulfate-Folate (250mg / 250ug) 1 times a day for 14 days "
+					}
+				],
+				"authoredOn": "2020-12-15T00:46:43.680Z",
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"requester": {
+					"reference": "Practitioner/123"
+				},
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "MedicationRequest/ferrousfumarate-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/MedicationRequest/amoxicillin10days-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "MedicationRequest",
+				"id": "amoxicillin10days-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"status": "active",
+				"intent": "proposal",
+				"medicationCodeableConcept": {
+					"coding": [
+						{
+							"display": "amoxicillin_10_days"
+						}
+					],
+					"text": "Amoxicillin"
+				},
+				"dosageInstruction": [
+					{
+						"text": "Start  3  dispersible tablet(s) Amoxicillin (250mg)   or 15 ml (250mg / 5ml syrup)    twice per day for 10 days "
+					}
+				],
+				"authoredOn": "2020-12-15T00:46:43.680Z",
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"requester": {
+					"reference": "Practitioner/123"
+				},
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "MedicationRequest/amoxicillin10days-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/MedicationRequest/tetracycline-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "MedicationRequest",
+				"id": "tetracycline-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"status": "active",
+				"intent": "proposal",
+				"medicationCodeableConcept": {
+					"coding": [
+						{
+							"display": "tetracycline"
+						}
+					],
+					"text": "Tetracycline"
+				},
+				"dosageInstruction": [
+					{
+						"text": "Apply tetracycline eye ointment both eyes four times per day until drainage stops"
+					}
+				],
+				"authoredOn": "2020-12-15T00:46:43.680Z",
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				},
+				"requester": {
+					"reference": "Practitioner/123"
+				},
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "MedicationRequest/tetracycline-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Location/bad1d94d-b203-4489-90e5-c14a028fa45f",
+			"resource": {
+				"resourceType": "Location",
+				"description": "Device-collected geo: up_to_date",
+				"mode": "instance",
+				"position": {
+					"latitude": 43.221697658790059,
+					"longitude": -71.71999353490864
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Location/bad1d94d-b203-4489-90e5-c14a028fa45f"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "Encounter",
+				"id": "3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"status": "arrived",
+				"text": {
+					"div": "<div class=\"fhirEncounter\"><span>Encounter</span></div>",
+					"status": "additional"
+				},
+				"period": {
+					"start": "2020-12-15T00:37:59.746Z",
+					"end": "2020-12-15T00:46:43.680Z"
+				},
+				"class": {
+					"system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+					"code": "HH",
+					"display": "home health"
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/CarePlan/respiratorydistress-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "CarePlan",
+				"id": "respiratorydistress-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"status": "generated",
+					"div": "<div><p><b>Generated Narrative with Details</b></p><p><b>status</b>: active</p><p><b>intent</b>: order</p>  <p><b>medication</b>: . Generated Summary:  <span>(Details : http://hl7.org/fhir/sid/ndc code \", given as )</span></p><p><b>subject</b>:   <a></a></p><p><b>reasonCode</b>:  <span>(Details : {SNOMED CT code  = })</span></p></div>"
+				},
+				"status": "active",
+				"intent": "order",
+				"addresses": [
+					{
+						"reference": "Condition/respiratorydistress-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+						"display": "Reason to admister this CarePlan"
+					}
+				],
+				"activity": [
+					{
+						"detail": {
+							"kind": "MedicationRequest",
+							"code": {
+								"coding": [
+									{
+										"display": "oxygen"
+									}
+								]
+							},
+							"description": "Administer oxygen, if possible by oxygen mask with reservoir at 10-15L&#x2F;min",
+							"status": "in-progress"
+						}
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "CarePlan/respiratorydistress-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/CarePlan/febrileillness-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "CarePlan",
+				"id": "febrileillness-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"status": "generated",
+					"div": "<div><p><b>Generated Narrative with Details</b></p><p><b>status</b>: active</p><p><b>intent</b>: order</p>  <p><b>medication</b>: . Generated Summary:  <span>(Details : http://hl7.org/fhir/sid/ndc code \", given as )</span></p><p><b>subject</b>:   <a></a></p><p><b>reasonCode</b>:  <span>(Details : {SNOMED CT code  = })</span></p></div>"
+				},
+				"status": "active",
+				"intent": "order",
+				"addresses": [
+					{
+						"reference": "Condition/febrileillness-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+						"display": "Reason to admister this CarePlan"
+					}
+				],
+				"activity": [
+					{
+						"detail": {
+							"kind": "MedicationRequest",
+							"code": {
+								"coding": [
+									{
+										"display": "amoxicillin"
+									}
+								]
+							},
+							"status": "in-progress"
+						}
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "CarePlan/febrileillness-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/CarePlan/dehydration-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "CarePlan",
+				"id": "dehydration-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"status": "generated",
+					"div": "<div><p><b>Generated Narrative with Details</b></p><p><b>status</b>: active</p><p><b>intent</b>: order</p>  <p><b>medication</b>: . Generated Summary:  <span>(Details : http://hl7.org/fhir/sid/ndc code \", given as )</span></p><p><b>subject</b>:   <a></a></p><p><b>reasonCode</b>:  <span>(Details : {SNOMED CT code  = })</span></p></div>"
+				},
+				"status": "active",
+				"intent": "order",
+				"addresses": [
+					{
+						"reference": "Condition/dehydration-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+						"display": "Reason to admister this CarePlan"
+					}
+				],
+				"activity": [
+					{
+						"detail": {
+							"kind": "MedicationRequest",
+							"code": {
+								"coding": [
+									{
+										"display": "ors_by_ngt"
+									}
+								]
+							},
+							"status": "in-progress"
+						}
+					},
+					{
+						"detail": {
+							"kind": "MedicationRequest",
+							"code": {
+								"coding": [
+									{
+										"display": "saline"
+									}
+								]
+							},
+							"status": "in-progress"
+						}
+					},
+					{
+						"detail": {
+							"kind": "Task",
+							"code": {
+								"coding": [
+									{
+										"display": "ors_by_mouth"
+									}
+								]
+							},
+							"status": "in-progress"
+						}
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "CarePlan/dehydration-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/CarePlan/dysentery-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "CarePlan",
+				"id": "dysentery-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"status": "generated",
+					"div": "<div><p><b>Generated Narrative with Details</b></p><p><b>status</b>: active</p><p><b>intent</b>: order</p>  <p><b>medication</b>: . Generated Summary:  <span>(Details : http://hl7.org/fhir/sid/ndc code \", given as )</span></p><p><b>subject</b>:   <a></a></p><p><b>reasonCode</b>:  <span>(Details : {SNOMED CT code  = })</span></p></div>"
+				},
+				"status": "active",
+				"intent": "order",
+				"addresses": [
+					{
+						"reference": "Condition/dysentery-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+						"display": "Reason to admister this CarePlan"
+					}
+				],
+				"activity": [
+					{
+						"detail": {
+							"kind": "MedicationRequest",
+							"code": {
+								"coding": [
+									{
+										"display": "ors_by_mouth_diarrhea"
+									}
+								]
+							},
+							"status": "in-progress"
+						}
+					},
+					{
+						"detail": {
+							"kind": "MedicationRequest",
+							"code": {
+								"coding": [
+									{
+										"display": "zinc"
+									}
+								]
+							},
+							"status": "in-progress"
+						}
+					},
+					{
+						"detail": {
+							"kind": "MedicationRequest",
+							"code": {
+								"coding": [
+									{
+										"display": "ciprofloxicin"
+									}
+								]
+							},
+							"status": "in-progress"
+						}
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "CarePlan/dysentery-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/CarePlan/malnutrition-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "CarePlan",
+				"id": "malnutrition-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"status": "generated",
+					"div": "<div><p><b>Generated Narrative with Details</b></p><p><b>status</b>: active</p><p><b>intent</b>: order</p>  <p><b>medication</b>: . Generated Summary:  <span>(Details : http://hl7.org/fhir/sid/ndc code \", given as )</span></p><p><b>subject</b>:   <a></a></p><p><b>reasonCode</b>:  <span>(Details : {SNOMED CT code  = })</span></p></div>"
+				},
+				"status": "active",
+				"intent": "order",
+				"addresses": [
+					{
+						"reference": "Condition/malnutrition-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+						"display": "Reason to admister this CarePlan"
+					}
+				],
+				"activity": [
+					{
+						"detail": {
+							"kind": "Task",
+							"code": {
+								"coding": [
+									{
+										"display": "refer_newborn_malnutrition"
+									}
+								]
+							},
+							"description": "Refer immediately to feeding center &#x2F; nutritionist or doctor &#x2F; clinic &#x2F; hospital",
+							"status": "in-progress"
+						}
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "CarePlan/malnutrition-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/CarePlan/intestinalobstruction-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "CarePlan",
+				"id": "intestinalobstruction-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"status": "generated",
+					"div": "<div><p><b>Generated Narrative with Details</b></p><p><b>status</b>: active</p><p><b>intent</b>: order</p>  <p><b>medication</b>: . Generated Summary:  <span>(Details : http://hl7.org/fhir/sid/ndc code \", given as )</span></p><p><b>subject</b>:   <a></a></p><p><b>reasonCode</b>:  <span>(Details : {SNOMED CT code  = })</span></p></div>"
+				},
+				"status": "active",
+				"intent": "order",
+				"addresses": [
+					{
+						"reference": "Condition/intestinalobstruction-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+						"display": "Reason to admister this CarePlan"
+					}
+				],
+				"activity": [
+					{
+						"detail": {
+							"kind": "Task",
+							"code": {
+								"coding": [
+									{
+										"display": "return_if_drinking_less"
+									}
+								]
+							},
+							"description": "Followup if drinking less",
+							"status": "in-progress"
+						}
+					},
+					{
+						"detail": {
+							"kind": "Task",
+							"code": {
+								"coding": [
+									{
+										"display": "return_if_urinating_less"
+									}
+								]
+							},
+							"description": "Followup if urinating less",
+							"status": "in-progress"
+						}
+					},
+					{
+						"detail": {
+							"kind": "Task",
+							"code": {
+								"coding": [
+									{
+										"display": "return_if_vomiting_worsens"
+									}
+								]
+							},
+							"description": "Followup if vomiting starts or worsens",
+							"status": "in-progress"
+						}
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "CarePlan/intestinalobstruction-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/CarePlan/earinfection-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "CarePlan",
+				"id": "earinfection-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"status": "generated",
+					"div": "<div><p><b>Generated Narrative with Details</b></p><p><b>status</b>: active</p><p><b>intent</b>: order</p>  <p><b>medication</b>: . Generated Summary:  <span>(Details : http://hl7.org/fhir/sid/ndc code \", given as )</span></p><p><b>subject</b>:   <a></a></p><p><b>reasonCode</b>:  <span>(Details : {SNOMED CT code  = })</span></p></div>"
+				},
+				"status": "active",
+				"intent": "order",
+				"addresses": [
+					{
+						"reference": "Condition/earinfection-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+						"display": "Reason to admister this CarePlan"
+					}
+				],
+				"activity": [
+					{
+						"detail": {
+							"kind": "Task",
+							"code": {
+								"coding": [
+									{
+										"display": "return_if_diarrhea_worsens"
+									}
+								]
+							},
+							"description": "Followup if diarrhea starts or worsens",
+							"status": "in-progress"
+						}
+					},
+					{
+						"detail": {
+							"kind": "Task",
+							"code": {
+								"coding": [
+									{
+										"display": "return_if_fever_persists"
+									}
+								]
+							},
+							"description": "Followup in 2 days if fever worsens or persists",
+							"status": "in-progress"
+						}
+					},
+					{
+						"detail": {
+							"kind": "Task",
+							"code": {
+								"coding": [
+									{
+										"display": "return_if_ear_pain_persists"
+									}
+								]
+							},
+							"description": "Followup if ear pain or drainage persists or worsens",
+							"status": "in-progress"
+						}
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "CarePlan/earinfection-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/CarePlan/eyeinfection-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "CarePlan",
+				"id": "eyeinfection-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"status": "generated",
+					"div": "<div><p><b>Generated Narrative with Details</b></p><p><b>status</b>: active</p><p><b>intent</b>: order</p>  <p><b>medication</b>: . Generated Summary:  <span>(Details : http://hl7.org/fhir/sid/ndc code \", given as )</span></p><p><b>subject</b>:   <a></a></p><p><b>reasonCode</b>:  <span>(Details : {SNOMED CT code  = })</span></p></div>"
+				},
+				"status": "active",
+				"intent": "order",
+				"addresses": [
+					{
+						"reference": "Condition/eyeinfection-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+						"display": "Reason to admister this CarePlan"
+					}
+				],
+				"activity": [
+					{
+						"detail": {
+							"kind": "Task",
+							"code": {
+								"coding": [
+									{
+										"display": "followup_in_3_days"
+									}
+								]
+							},
+							"description": "Followup in 3 days if not improving",
+							"status": "in-progress"
+						}
+					},
+					{
+						"detail": {
+							"kind": "MedicationRequest",
+							"code": {
+								"coding": [
+									{
+										"display": "tetracycline"
+									}
+								]
+							},
+							"description": "If eye discharge: Apply Tetracycline Eye Ointment to lower lid of each eye 4 times per day until discharge is gone",
+							"status": "in-progress"
+						}
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "CarePlan/eyeinfection-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/CarePlan/malaria-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "CarePlan",
+				"id": "malaria-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"status": "generated",
+					"div": "<div><p><b>Generated Narrative with Details</b></p><p><b>status</b>: active</p><p><b>intent</b>: order</p>  <p><b>medication</b>: . Generated Summary:  <span>(Details : http://hl7.org/fhir/sid/ndc code \", given as )</span></p><p><b>subject</b>:   <a></a></p><p><b>reasonCode</b>:  <span>(Details : {SNOMED CT code  = })</span></p></div>"
+				},
+				"status": "active",
+				"intent": "order",
+				"addresses": [
+					{
+						"reference": "Condition/malaria-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+						"display": "Reason to admister this CarePlan"
+					}
+				],
+				"activity": [
+					{
+						"detail": {
+							"kind": "Task",
+							"code": {
+								"coding": [
+									{
+										"display": "perform_malaria_test"
+									}
+								]
+							},
+							"description": "Perform rapid test for Malaria",
+							"status": "in-progress"
+						}
+					},
+					{
+						"detail": {
+							"kind": "Task",
+							"code": {
+								"coding": [
+									{
+										"display": "ors_sugar_water"
+									}
+								]
+							},
+							"description": "Encourage Oral Rehydration Solution (ORS) or sugar water",
+							"status": "in-progress"
+						}
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "CarePlan/malaria-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/CarePlan/seizure-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "CarePlan",
+				"id": "seizure-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"status": "generated",
+					"div": "<div><p><b>Generated Narrative with Details</b></p><p><b>status</b>: active</p><p><b>intent</b>: order</p>  <p><b>medication</b>: . Generated Summary:  <span>(Details : http://hl7.org/fhir/sid/ndc code \", given as )</span></p><p><b>subject</b>:   <a></a></p><p><b>reasonCode</b>:  <span>(Details : {SNOMED CT code  = })</span></p></div>"
+				},
+				"status": "active",
+				"intent": "order",
+				"addresses": [
+					{
+						"reference": "Condition/seizure-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+						"display": "Reason to admister this CarePlan"
+					}
+				],
+				"activity": [
+					{
+						"detail": {
+							"kind": "Task",
+							"code": {
+								"coding": [
+									{
+										"display": "refer"
+									}
+								]
+							},
+							"description": "Refer to Doctor &#x2F; Clinic &#x2F; Hospital",
+							"status": "in-progress"
+						}
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "CarePlan/seizure-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/CarePlan/impetigo-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "CarePlan",
+				"id": "impetigo-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"status": "generated",
+					"div": "<div><p><b>Generated Narrative with Details</b></p><p><b>status</b>: active</p><p><b>intent</b>: order</p>  <p><b>medication</b>: . Generated Summary:  <span>(Details : http://hl7.org/fhir/sid/ndc code \", given as )</span></p><p><b>subject</b>:   <a></a></p><p><b>reasonCode</b>:  <span>(Details : {SNOMED CT code  = })</span></p></div>"
+				},
+				"status": "active",
+				"intent": "order",
+				"addresses": [
+					{
+						"reference": "Condition/impetigo-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+						"display": "Reason to admister this CarePlan"
+					}
+				],
+				"activity": [
+					{
+						"detail": {
+							"kind": "MedicationRequest",
+							"code": {
+								"coding": [
+									{
+										"display": "cefalexin_or_cloxicillin"
+									}
+								]
+							},
+							"status": "in-progress"
+						}
+					},
+					{
+						"detail": {
+							"kind": "Task",
+							"code": {
+								"coding": [
+									{
+										"display": "clean"
+									}
+								]
+							},
+							"description": "Clean the affected area with soap and water 3-4 times per day",
+							"status": "in-progress"
+						}
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "CarePlan/impetigo-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/CarePlan/ringworm-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "CarePlan",
+				"id": "ringworm-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"status": "generated",
+					"div": "<div><p><b>Generated Narrative with Details</b></p><p><b>status</b>: active</p><p><b>intent</b>: order</p>  <p><b>medication</b>: . Generated Summary:  <span>(Details : http://hl7.org/fhir/sid/ndc code \", given as )</span></p><p><b>subject</b>:   <a></a></p><p><b>reasonCode</b>:  <span>(Details : {SNOMED CT code  = })</span></p></div>"
+				},
+				"status": "active",
+				"intent": "order",
+				"addresses": [
+					{
+						"reference": "Condition/ringworm-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+						"display": "Reason to admister this CarePlan"
+					}
+				],
+				"activity": [
+					{
+						"detail": {
+							"kind": "Task",
+							"code": {
+								"coding": [
+									{
+										"display": "followup_in_5_days_skin_infection"
+									}
+								]
+							},
+							"description": "Followup in 5 days or sooner if skin infection is not improving",
+							"status": "in-progress"
+						}
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "CarePlan/ringworm-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/CarePlan/meningitis-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "CarePlan",
+				"id": "meningitis-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"status": "generated",
+					"div": "<div><p><b>Generated Narrative with Details</b></p><p><b>status</b>: active</p><p><b>intent</b>: order</p>  <p><b>medication</b>: . Generated Summary:  <span>(Details : http://hl7.org/fhir/sid/ndc code \", given as )</span></p><p><b>subject</b>:   <a></a></p><p><b>reasonCode</b>:  <span>(Details : {SNOMED CT code  = })</span></p></div>"
+				},
+				"status": "active",
+				"intent": "order",
+				"addresses": [
+					{
+						"reference": "Condition/meningitis-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+						"display": "Reason to admister this CarePlan"
+					}
+				],
+				"activity": [
+					{
+						"detail": {
+							"kind": "MedicationRequest",
+							"code": {
+								"coding": [
+									{
+										"display": "ceftriaxone"
+									}
+								]
+							},
+							"status": "in-progress"
+						}
+					},
+					{
+						"detail": {
+							"kind": "MedicationRequest",
+							"code": {
+								"coding": [
+									{
+										"display": "dexamethasone_meningitis"
+									}
+								]
+							},
+							"status": "in-progress"
+						}
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "CarePlan/meningitis-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/CarePlan/uti-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "CarePlan",
+				"id": "uti-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"status": "generated",
+					"div": "<div><p><b>Generated Narrative with Details</b></p><p><b>status</b>: active</p><p><b>intent</b>: order</p>  <p><b>medication</b>: . Generated Summary:  <span>(Details : http://hl7.org/fhir/sid/ndc code \", given as )</span></p><p><b>subject</b>:   <a></a></p><p><b>reasonCode</b>:  <span>(Details : {SNOMED CT code  = })</span></p></div>"
+				},
+				"status": "active",
+				"intent": "order",
+				"addresses": [
+					{
+						"reference": "Condition/uti-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+						"display": "Reason to admister this CarePlan"
+					}
+				],
+				"activity": [
+					{
+						"detail": {
+							"kind": "MedicationRequest",
+							"code": {
+								"coding": [
+									{
+										"display": "cotrimoxazole"
+									}
+								]
+							},
+							"status": "in-progress"
+						}
+					},
+					{
+						"detail": {
+							"kind": "Task",
+							"code": {
+								"coding": [
+									{
+										"display": "return_urine_pain_persists"
+									}
+								]
+							},
+							"description": "Followup in 5 days if pain when urinating continues",
+							"status": "in-progress"
+						}
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "CarePlan/uti-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/CarePlan/anemia-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "CarePlan",
+				"id": "anemia-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"status": "generated",
+					"div": "<div><p><b>Generated Narrative with Details</b></p><p><b>status</b>: active</p><p><b>intent</b>: order</p>  <p><b>medication</b>: . Generated Summary:  <span>(Details : http://hl7.org/fhir/sid/ndc code \", given as )</span></p><p><b>subject</b>:   <a></a></p><p><b>reasonCode</b>:  <span>(Details : {SNOMED CT code  = })</span></p></div>"
+				},
+				"status": "active",
+				"intent": "order",
+				"addresses": [
+					{
+						"reference": "Condition/anemia-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+						"display": "Reason to admister this CarePlan"
+					}
+				],
+				"activity": [
+					{
+						"detail": {
+							"kind": "MedicationRequest",
+							"code": {
+								"coding": [
+									{
+										"display": "ferrous_fumarate"
+									}
+								]
+							},
+							"status": "in-progress"
+						}
+					},
+					{
+						"detail": {
+							"kind": "Task",
+							"code": {
+								"coding": [
+									{
+										"display": "followup_in_14_days_anemia"
+									}
+								]
+							},
+							"description": "Followup in 14 days for anemia",
+							"status": "in-progress"
+						}
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "CarePlan/anemia-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/CarePlan/strepthroat-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "CarePlan",
+				"id": "strepthroat-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"status": "generated",
+					"div": "<div><p><b>Generated Narrative with Details</b></p><p><b>status</b>: active</p><p><b>intent</b>: order</p>  <p><b>medication</b>: . Generated Summary:  <span>(Details : http://hl7.org/fhir/sid/ndc code \", given as )</span></p><p><b>subject</b>:   <a></a></p><p><b>reasonCode</b>:  <span>(Details : {SNOMED CT code  = })</span></p></div>"
+				},
+				"status": "active",
+				"intent": "order",
+				"addresses": [
+					{
+						"reference": "Condition/strepthroat-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+						"display": "Reason to admister this CarePlan"
+					}
+				],
+				"activity": [
+					{
+						"detail": {
+							"kind": "MedicationRequest",
+							"code": {
+								"coding": [
+									{
+										"display": "amoxicillin_10_days"
+									}
+								]
+							},
+							"status": "in-progress"
+						}
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "CarePlan/strepthroat-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		},
+		{
+			"fullUrl": "https://fhir.thinkmd.tech/CarePlan/diarrhea-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+			"resource": {
+				"resourceType": "CarePlan",
+				"id": "diarrhea-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+				"text": {
+					"status": "generated",
+					"div": "<div><p><b>Generated Narrative with Details</b></p><p><b>status</b>: active</p><p><b>intent</b>: order</p>  <p><b>medication</b>: . Generated Summary:  <span>(Details : http://hl7.org/fhir/sid/ndc code \", given as )</span></p><p><b>subject</b>:   <a></a></p><p><b>reasonCode</b>:  <span>(Details : {SNOMED CT code  = })</span></p></div>"
+				},
+				"status": "active",
+				"intent": "order",
+				"addresses": [
+					{
+						"reference": "Condition/diarrhea-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e",
+						"display": "Reason to admister this CarePlan"
+					}
+				],
+				"activity": [
+					{
+						"detail": {
+							"kind": "Task",
+							"code": {
+								"coding": [
+									{
+										"display": "encorage_child_to_drink"
+									}
+								]
+							},
+							"description": "Encourage to drink more until diarrhea and&#x2F;or vomiting stops",
+							"status": "in-progress"
+						}
+					}
+				],
+				"encounter": {
+					"reference": "Encounter/3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+				},
+				"subject": {
+					"reference": "Patient/ThinkMD-33cc0036-e278-4278-8768-48040f1426f7"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "CarePlan/diarrhea-3885a9d4-16d5-4e1e-8dd5-1837eb2d9e5e"
+			}
+		}
+	]
+}
